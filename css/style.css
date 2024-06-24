@@ -135,3 +135,104 @@
     width: 100%;
     height: auto;
 }
+
+/* Main */
+
+.sales {
+    margin-top: 100px;
+}
+.sales .container {
+    max-width: 800px;
+}
+
+.sales-text {
+    display: flex;
+    justify-content: center;
+}
+
+.sales-text .main-text {
+    font-family: var(--font-raleway);
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.statistics-container {
+    margin-top: 103px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.statistics-column1, .statistics-column2, .statistics-column3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics-circle1 {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    background-color: var(--color-redish);
+    position: relative;
+}
+
+.statistics-circle2 {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    background-color: var(--color-primary);
+    position: relative;
+}
+
+.statistics-circle3 {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    background-color: var(--color-green);
+    position: relative;
+}
+
+.statistics-img {
+    position: absolute;
+}
+
+.statistics-column1 .statistics-img {
+    left: 35px;
+}
+
+.statistics-column2 .statistics-img {
+    top: 23%;
+    left: 21px;
+}
+
+.statistics-column3 .statistics-img {
+    top: 6px;
+    left: 50%;
+}
+
+.statistics-main-text {
+    margin-top: 13px;
+    font-family: var(--font-raleway);
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 6px;
+    font-weight: 800;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.statistics-secondary-text {
+    max-width: 176px;
+    height: 48px;
+    margin-top: 19px;
+    font-family: var(--font-raleway);
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: var(--color-grey);
+    text-align: center;
+}
