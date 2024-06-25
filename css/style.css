@@ -265,3 +265,90 @@
     max-width: 415px;
     margin: 90px 36px;
 }
+
+.benefit-heading {
+    text-align: left;
+    font-family: var(--font-raleway);
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-bottom: 30px;
+}
+
+.benefit-description {
+    text-align: left;
+    font-family: var(--font-open-sans);
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+
+.benefit-img1{
+    margin-right: 117px;
+    margin-bottom: 38px;
+    position: relative;
+}
+
+.benefit-img2{
+    position: relative;
+    margin-bottom: 13px;
+}
+
+.benefit-img3{
+    position: relative;
+}
+
+.benefit-img1 img {
+    position: relative;
+    z-index: 2;
+    width: 386px;
+    height: auto;
+}
+
+.benefit-img2 img {
+    position: relative;
+    z-index: 2;
+    width: 426px;
+    height: auto;
+}
+
+.benefit-img3 img {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 64px;
+    width: 295px;
+    height: auto;
+}
+
+.shape1::before {
+    content: "";
+    width: 180px;
+    height: 180px;
+    background-color: var(--color-redish);
+    display: block;
+    border-radius: 40px;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    transform: rotate(45deg);
+}
+
+.shape2::before {
+    content: "";
+    width: 320px;
+    height: 320px;
+    background-color: var(--color-primary);
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+
+.benefit-img3 {
+    margin-left: 60px;
+    background-color: var(--color-green);
+}
+
+.double-benefit {
+}
