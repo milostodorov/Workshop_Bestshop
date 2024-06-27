@@ -350,5 +350,125 @@
     background-color: var(--color-green);
 }
 
-.double-benefit {
+/* Pricing */
+
+.pricing {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing h2 {
+    font-family: var(--font-raleway);
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0px;
+}
+
+.pricing .container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-box1, .pricing-box2, .pricing-box3 {
+    width: 370px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-box1 {
+    border: 1px solid var(--color-redish);
+}
+
+.pricing-box2 {
+    border: 1px solid var(--color-primary);
+    margin: 0 40px;
+    width: 400px;
+    box-shadow: 5px 10px 27px rgba(7, 172, 230, 0.161);
+}
+
+.pricing-box3 {
+    border: 1px solid var(--color-green);
+}
+
+.pricing-details {
+    margin-top: 34px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.pricing-type {
+    font-family: var(--font-raleway);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: rgb(19, 37, 59);
+}
+
+.pricing-price {
+    margin-top: 14px;
+    font-family: var(--font-open-sans);
+    font-size: 46px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--color-redish);
+}
+
+.pricing-limited {
+    margin-top: 15px;
+    font-family: var(--font-raleway);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.pricing-box2 .pricing-price {
+    color: var(--color-primary);
+}
+
+.pricing-box3 .pricing-price {
+    color: var(--color-green);
+}
+
+.pricing-items {
+    text-align: center;
+}
+
+.pricing-item {
+    font-family: var(--font-open-sans);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.pricing-box2 .pricing-items .pricing-item {
+    margin-bottom: 25px;
+}
+
+.button {
+    font-family: var(--font-open-sans);
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background: rgb(235, 71, 110) 0% 0% no-repeat padding-box;
+    color: white;
+    padding: 16px 57px;
+    border-radius: 35px;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    bottom: -25px;
+}
+
+.pricing-box2 .button {
+    background-color: var(--color-primary);
+}
+
+.pricing-box3 .button {
+    background-color: var(--color-green);
 }
